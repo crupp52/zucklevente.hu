@@ -8,8 +8,8 @@
                     <h1 class="text-5xl md:text-8xl">zucklevente.hu</h1>
                     <p class="text-md md:text-lg italic hover:underline">Szoftvertervező, programozó, mérnök.</p>
                     <div class="mt-4">
-                        <p id="phone"></p>
-                        <a href="#" id="email" class="hover:underline"></a>
+                        <p id="welcome-phone"></p>
+                        <a href="#" id="welcome-email" class="hover:underline"></a>
                     </div>
                 </div>
                 <a href="#about-me" class="transition py-2 px-5 rounded-sm bg-green-700 text-gray-50 hover:bg-green-800">Tudj meg többet!</a>
@@ -73,6 +73,26 @@
                 </div>
             </div>
         </div>
+        <div id="contact" class="bg-green-300">
+            <h1 class="mx-auto text-center text-3xl md:text-6xl font-serif pt-10 mb-10 table border-b-4 border-green-700">Kapcsolat</h1>
+            <div class="w-full px-4 pb-12">
+                <div class="w-full sm:w-2/3 xl:w-1/2 mx-auto pt-8 font-serif text-center">
+                    <p class="mb-12">
+                        Az alábbi elérhetőségeken vagyok elérhető. A mennyiben kérdése, projektötlete vagy megoldandó probléma van, forduljon felém bizalommal. Nyitott vagyok új vállalkozásának bemutató oldalának megalkotására, automatizációt igénylő folyamatainak megoldására, bármely egyéb kihívást jelentő feladatra.
+                    </p>
+                    <div class="my-20">
+                        <div class="text-3xl my-2">
+                            <span class="inline-block align-middle mx-2"><i class="fas fa-phone-alt"></i></span>
+                            <span class="inline-block align-middle mx-2"><p id="contact-phone"></p></span>
+                        </div>
+                        <div class="text-3xl my-2">
+                            <span class="inline-block align-middle mx-2"><i class="fas fa-envelope"></i></span>
+                            <span class="inline-block align-middle mx-2"><a id="contact-email" href="#" class="hover:underline"></a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="bg-gray-700 w-full flex justify-center items-center">
             <p class="text-center text-gray-50 py-4">Minden jog fenntartva. © 2021</p>
         </div>
@@ -82,9 +102,15 @@
 @push('scripts')
     <script>
         $(document).ready(function () {
-            $('#phone').text('+36303119201');
+            $('#welcome-phone').text('+36303119201');
 
-            const email = $('#email');
+            let email = $('#welcome-email');
+            email.text('hello@zucklevente.hu');
+            email.attr('href', 'mailto:hello@zucklevente.hu');
+
+            $('#contact-phone').text('+36303119201');
+            email = $('#contact-email');
+
             email.text('hello@zucklevente.hu');
             email.attr('href', 'mailto:hello@zucklevente.hu');
         });
