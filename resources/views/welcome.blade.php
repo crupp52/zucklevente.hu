@@ -1,20 +1,33 @@
 @extends('layouts.app')
 
 @section('content')
-    <div>
+    <div class="font-serif">
         <div class="bg-green-300 w-full h-screen flex justify-center items-center">
             <div class="text-center">
-                <div class="mb-20 font-serif text-gray-900">
+                <div class="mb-16 text-gray-900">
                     <h1 class="text-5xl md:text-8xl">zucklevente.hu</h1>
                     <p class="text-md md:text-lg italic hover:underline">Szoftvertervező, programozó, mérnök.</p>
+                    <div class="mt-4">
+                        <p id="phone"></p>
+                        <a href="#" id="email" class="hover:underline"></a>
+                    </div>
                 </div>
-                <a href="#references" class="transition py-2 px-5 rounded-sm bg-green-700 text-gray-50 hover:bg-green-800">Tudj meg többet!</a>
+                <a href="#about-me" class="transition py-2 px-5 rounded-sm bg-green-700 text-gray-50 hover:bg-green-800">Tudj meg többet!</a>
             </div>
         </div>
         <div id="about-me" class="bg-gray-300">
             <h1 class="mx-auto text-center text-3xl md:text-6xl font-serif pt-10 mb-10 table border-b-4 border-green-700">Rólam</h1>
             <div class="w-full px-4 pb-12">
                 <div class="w-full sm:w-2/3 xl:w-1/2 mx-auto pt-8 font-serif">
+                    <div class="block md:flex">
+                        <div class="w-full md:w-1/3">
+                            <img src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png" alt="">
+                        </div>
+                        <div class="w-full md:w-2/3 px-0 md:px-4 py-3 md:py-0">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut arcu tortor, gravida eu dui ut, pellentesque laoreet felis. Fusce convallis neque a massa egestas semper. Ut fringilla nisi scelerisque nulla lacinia accumsan. Vivamus in neque sollicitudin, dignissim ex a, euismod nibh. Vestibulum blandit nunc enim, eleifend ultrices diam mattis sit amet. Quisque urna felis, accumsan id fermentum vel, tincidunt quis tortor. Praesent blandit, turpis non aliquam vestibulum,
+                                ex lacus pharetra odio, sed pharetra augue ipsum id augue. Phasellus nec orci nisl.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -26,8 +39,8 @@
                         A Github profilomon megtalálhatóak korábbi munkáim, egyetemi feladataim és hobbi projektjeim forráskódjai.
                     </p>
                     <div class="text-3xl">
-                        <span class="inline-block align-middle mr-4"><i class="fab fa-github fa-2x"></i></span>
-                        <span class="inline-block align-middle"><a href="https://github.com/crupp52" target="_blank" class="hover:underline">@crupp52</a></span>
+                        <span class="inline-block align-middle mx-2"><i class="fab fa-github fa-2x"></i></span>
+                        <span class="inline-block align-middle mx-2"><a href="https://github.com/crupp52" target="_blank" class="hover:underline">@crupp52</a></span>
                     </div>
                 </div>
             </div>
@@ -65,3 +78,15 @@
         </div>
     </div>
 @endsection
+
+@push('scripts')
+    <script>
+        $(document).ready(function () {
+            $('#phone').text('+36303119201');
+
+            const email = $('#email');
+            email.text('hello@zucklevente.hu');
+            email.attr('href', 'mailto:hello@zucklevente.hu');
+        });
+    </script>
+@endpush
