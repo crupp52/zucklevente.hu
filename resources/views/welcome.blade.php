@@ -11,6 +11,27 @@
                 <a href="#references" class="transition py-2 px-5 rounded-sm bg-green-700 text-gray-50 hover:bg-green-800">Tudj meg többet!</a>
             </div>
         </div>
+        <div id="about-me" class="bg-gray-300">
+            <h1 class="mx-auto text-center text-3xl md:text-6xl font-serif pt-10 mb-10 table border-b-4 border-green-700">Rólam</h1>
+            <div class="w-full px-4 pb-12">
+                <div class="w-full sm:w-2/3 xl:w-1/2 mx-auto pt-8 font-serif">
+                </div>
+            </div>
+        </div>
+        <div id="github" class="bg-green-300">
+            <h1 class="mx-auto text-center text-3xl md:text-6xl font-serif pt-10 mb-10 table border-b-4 border-green-700">Github</h1>
+            <div class="w-full px-4 pb-12">
+                <div class="w-full sm:w-2/3 xl:w-1/2 mx-auto pt-8 font-serif text-center">
+                    <p class="mb-12">
+                        A Github profilomon megtalálhatóak korábbi munkáim, egyetemi feladataim és hobbi projektjeim forráskódjai.
+                    </p>
+                    <div class="text-3xl">
+                        <span class="inline-block align-middle mr-4"><i class="fab fa-github fa-2x"></i></span>
+                        <span class="inline-block align-middle"><a href="https://github.com/crupp52" target="_blank" class="hover:underline">@crupp52</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div id="references" class="bg-gray-300">
             <h1 class="mx-auto text-center text-3xl md:text-6xl font-serif pt-10 mb-10 table border-b-4 border-green-700">Referenciák</h1>
             <div class="w-full px-4 pb-12">
