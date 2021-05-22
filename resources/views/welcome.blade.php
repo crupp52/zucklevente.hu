@@ -18,21 +18,21 @@
                     <div class="mb-10">
                         <h2 class="text-3xl">Óbudai Egyetem - Állásbörze</h2>
                         <h3 class="text-lg mb-2 font-bold text-green-600">Engineed Kft., Budapest</h3>
-                        <p class="mb-6">Elérhetőség: <a class="text-green-600 hover:underline" href="https://allasborze.uni-obuda.hu/" target="_blank">https://allasborze.uni-obuda.hu/</a></p>
+                        <p class="mb-2">Elérhetőség: <a class="text-green-600 hover:underline" href="https://allasborze.uni-obuda.hu/" target="_blank">https://allasborze.uni-obuda.hu/</a></p>
                         <p>Laravel alapú rendszer a kiállítók és a látogatók számára. Nyereményjáték esélyek kezelése, és listázása. Discord autentikáció a kiállítói szobákhoz. Kiállítók számára ajánlatkérő felület, szolgáltatások kiválasztása, az ajánlat elfogadása és megrendelése. Állásajánlatok létrehozás, kezelése és láthatóságágnak beállítása a cégek részéről.</p>
                         <p class="mx-auto border-b-4 border-green-700 w-20 my-8"></p>
                     </div>
                     <div class="mb-10">
                         <h2 class="text-3xl">Microtrade Kft. – Új Landing oldal</h2>
                         <h3 class="text-lg mb-2 font-bold text-green-600">Engineed Kft., Budapest</h3>
-                        <p class="mb-6">Elérhetőség: <a class="text-green-600 hover:underline" href="https://about.microtrade.hu/" target="_blank">https://about.microtrade.hu/</a></p>
+                        <p class="mb-2">Elérhetőség: <a class="text-green-600 hover:underline" href="https://about.microtrade.hu/" target="_blank">https://about.microtrade.hu/</a></p>
                         <p>Az új arculatot és szolgáltatásokat bemutató oldal, egyedi Bootstrap 5 frontend keretrendszerrel és animált SVG infografikákkal.</p>
                         <p class="mx-auto border-b-4 border-green-700 w-20 my-8"></p>
                     </div>
                     <div class="mb-10">
                         <h2 class="text-3xl">Manager Masszázs Csapat – Bemutatkozó oldal</h2>
                         <h3 class="text-lg mb-2 font-bold text-green-600">Szabadúszóként</h3>
-                        <p class="mb-6">Elérhetőség: <a class="text-green-600 hover:underline" href="https://managermasszazscsapat.hu/" target="_blank">https://managermasszazscsapat.hu/</a></p>
+                        <p class="mb-2">Elérhetőség: <a class="text-green-600 hover:underline" href="https://managermasszazscsapat.hu/" target="_blank">https://managermasszazscsapat.hu/</a></p>
                         <p>Újonnan alapított, kifejezetten cégeket megcélzó masszázs szolgáltatást nyújtó vállalkozás bemutatkozó oldala. Az admin felületen lehetőség van kezelni a meglévő szolgáltatásokat, illetve újat létrehozni.</p>
                         <p class="mx-auto border-b-4 border-green-700 w-20 my-8"></p>
                     </div>
