@@ -5,8 +5,8 @@
         <div class="bg-green-300 w-full h-screen flex justify-center items-center">
             <div class="text-center">
                 <div class="mb-16 text-gray-900">
-                    <h1 class="text-5xl md:text-8xl">zucklevente.hu</h1>
-                    <p class="text-md md:text-lg italic hover:underline">Szoftvertervező, programozó, mérnök.</p>
+                    <h1 class="text-5xl md:text-8xl">Zuck Levente</h1>
+                    <p class="text-md md:text-lg italic">Szoftvertervező, programozó, mérnök.</p>
                     <div class="mt-4">
                         <p id="welcome-phone"></p>
                         <a href="#" id="welcome-email" class="hover:underline"></a>
@@ -24,8 +24,10 @@
                             <img src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png" alt="">
                         </div>
                         <div class="w-full md:w-2/3 px-0 md:px-4 py-3 md:py-0">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut arcu tortor, gravida eu dui ut, pellentesque laoreet felis. Fusce convallis neque a massa egestas semper. Ut fringilla nisi scelerisque nulla lacinia accumsan. Vivamus in neque sollicitudin, dignissim ex a, euismod nibh. Vestibulum blandit nunc enim, eleifend ultrices diam mattis sit amet. Quisque urna felis, accumsan id fermentum vel, tincidunt quis tortor. Praesent blandit, turpis non aliquam vestibulum,
-                                ex lacus pharetra odio, sed pharetra augue ipsum id augue. Phasellus nec orci nisl.</p>
+                            <p class="mb-2">Zuck Levente vagyok, 22 éves. A középiskola óta foglalkoztat az informatika és foglalkozom programozással. Fő területem a webalkalmazások fejlesztése, Laravel alapú rendszereket készítek, különböző webes eszközzel kiegészítve. Tapasztalatom van egyszerű bemutatkozó oldalak készítésében, de nagyméretű adminisztrációs felületeket is fejlesztettem csapatban és önállóan.</p>
+                            <p class="mb-2">Szeretem a kihívásokat, a változatos problémákat, ha egy projekt során új területeket/technológiákat ismerhetek meg.</p>
+                            <p class="mb-2">Részt vettem az Óbudai Egyetem Állásbörze oldalának fejlesztésében, amely lehetőséget nyújtott a résztvevő cégeknek és a látogatok kezelésére, a cégek állásajánlatokat tudtak feltölteni a saját profiljuk alá.</p>
+                            <p class="mb-2">Emellett .NET fejlesztéssel foglalkozom, grafikus asztali és webes alkalmazásokkal egyaránt.</p>
                         </div>
                     </div>
                 </div>
@@ -78,7 +80,7 @@
             <div class="w-full px-4 pb-12">
                 <div class="w-full sm:w-2/3 xl:w-1/2 mx-auto pt-8 font-serif text-center">
                     <p class="mb-12">
-                        Az alábbi elérhetőségeken vagyok elérhető. A mennyiben kérdése, projektötlete vagy megoldandó probléma van, forduljon felém bizalommal. Nyitott vagyok új vállalkozásának bemutató oldalának megalkotására, automatizációt igénylő folyamatainak megoldására, bármely egyéb kihívást jelentő feladatra.
+                        Az alábbi lehetőségeken vagyok elérhető. A mennyiben kérdése, projektötlete van, forduljon felém bizalommal. Nyitott vagyok új vállalkozásának bemutató oldalának megalkotására, automatizációt igénylő folyamatainak kezelésére, bármely egyéb kihívást jelentő feladatra.
                     </p>
                     <div class="my-20">
                         <div class="text-3xl my-2">
