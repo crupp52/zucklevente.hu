@@ -52,6 +52,13 @@
             <div class="w-full px-4 pb-12">
                 <div class="w-full sm:w-2/3 xl:w-1/2 mx-auto pt-8 font-serif">
                     <div class="mb-10">
+                        <h2 class="text-3xl">MMB 2021 Kft. - Oldtimer Esküvőre</h2>
+                        <h3 class="text-lg mb-2 font-bold text-green-600">Szabadúszóként</h3>
+                        <p class="mb-2">Elérhetőség: <a class="text-green-600 hover:underline" href="https://oldtimereskuvore.hu/" target="_blank">https://oldtimereskuvore.hu/</a></p>
+                        <p>Frissen induló autóbérbeadással foglalkozó vállalkozás honlapja, ahol a felhasználó megismerkedhet a flotta járműveivel. Az oldal elérhető három nyelven, a szélesebb ügyfélkör kiépítése érdekében.</p>
+                        <p class="mx-auto border-b-4 border-green-700 w-20 my-8"></p>
+                    </div>
+                    <div class="mb-10">
                         <h2 class="text-3xl">Óbudai Egyetem - Állásbörze</h2>
                         <h3 class="text-lg mb-2 font-bold text-green-600">Engineed Kft., Budapest</h3>
                         <p class="mb-2">Elérhetőség: <a class="text-green-600 hover:underline" href="https://allasborze.uni-obuda.hu/" target="_blank">https://allasborze.uni-obuda.hu/</a></p>
